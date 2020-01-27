@@ -1,5 +1,5 @@
 INSERT INTO mysql_servers (hostname, hostgroup_id, port, weight, max_connections)
-VALUES ('mysql', 10,3306, 1000, 2000);
+VALUES ('mysql', 10, 3306, 1000, 2000);
 INSERT INTO mysql_servers (hostname, hostgroup_id, port, weight, max_connections)
 VALUES ('mysql-slave', 20, 3306, 1000, 2000);
 LOAD MYSQL SERVERS TO RUNTIME;
